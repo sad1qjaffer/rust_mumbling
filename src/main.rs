@@ -1,3 +1,4 @@
+mod mumbling;
 fn main() {
-    println!("Hello, world!");
+    println!("{}",mumbling::accum("ABcdef"));
 }
